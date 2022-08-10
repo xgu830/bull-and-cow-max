@@ -1,1 +1,1 @@
-# bull-and-cow-max
+# Bull and Cow Game
