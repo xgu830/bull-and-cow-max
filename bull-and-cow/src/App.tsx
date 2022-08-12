@@ -99,7 +99,7 @@ function App() {
   function generateAiCode(digitsSource:string) {
     let result = "";
     for (let i = 0; i < 4; i++) {
-      const element = digitsSource.charAt(Math.floor(Math.random() * (digitsSource.length - i)));
+      const element = digitsSource.charAt(Math.floor(Math.random() * digitsSource.length));
       result += element;
       digitsSource = digitsSource.replace(element,'');
     }
