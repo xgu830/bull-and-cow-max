@@ -68,7 +68,7 @@ function App() {
         Try to guess another player's code. <br />
         Bulls = correct code, correct position. <br />
         Cows = correct code, wrong position. <br />
-        Try to beat my AI =.=</p>
+        YYDS my AI =.=</p>
       </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ function App() {
   function generateAiCode(digitsSource:string) {
     let result = "";
     for (let i = 0; i < 4; i++) {
-      const element = digitsSource.charAt(Math.random() * (digitsSource.length - i));
+      const element = digitsSource.charAt(Math.floor(Math.random() * (digitsSource.length - i)));
       result += element;
       digitsSource = digitsSource.replace(element,'');
     }
