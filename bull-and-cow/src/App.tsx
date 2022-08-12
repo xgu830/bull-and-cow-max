@@ -68,7 +68,7 @@ function App() {
         Try to guess another player's code. <br />
         Bulls = correct code, correct position. <br />
         Cows = correct code, wrong position. <br />
-        Try to get 4 Bulls in 7 rounds</p>
+        Try to beat my AI =.=</p>
       </div>
       </div>
     </div>
