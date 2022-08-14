@@ -28,3 +28,20 @@
     border: 1px dashed black;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 800px) {
+    #game-zone {
+        flex-wrap: wrap;
+    }
+    #user-one-result,#user-two-result {
+        width: 40%;
+    }
+
+    #input-and-instruction {
+        width: 90%;
+    }
+
+    #game-result,#user-input-zone,#instruction {
+        padding: 0;
+    }
+}
